@@ -1,0 +1,29 @@
+@main (max-width:650px){
+    .main__btn{
+        padding: var(--space);
+        background-color: var(--green-color);
+        width: 100%;
+        border: 0px;
+        border-radius: 2x;
+        cursor: pointer;
+        color: var(--white-color);
+    }
+    
+    .main__btn:hover{
+        background-color: #63a426;
+    }
+    
+    .main-section{
+    padding: 5%;
+    }
+    
+    .products{
+        display: block;
+        height: auto;
+        padding: 5%;
+    }
+    
+    .product{
+        margin-top: auto;
+    }
+}
